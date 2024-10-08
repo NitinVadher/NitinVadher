@@ -1,0 +1,167 @@
+
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(255,240,179,1) 7%, rgba(255,206,212,1) 66%, rgba(255,173,244,1) 92%)
+}
+
+  #signupForm{
+    padding: 0;
+    margin: 0;
+  }
+    
+  #singupMain {  
+    width: 400px;  
+    padding: 20px;  
+    background-color: #fff;  
+    /* border: 1px solid #ddd;   */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    /* border: 1px solid black; */
+    margin: 200px;  
+
+  }  
+    
+  #singupMain h1 {  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+  }  
+    
+  p {  
+    font-size: 16px;  
+    margin-bottom: 20px;  
+  }  
+    
+  .input-group {  
+    position: relative;  
+    margin-bottom: 20px;  
+    width: 300px;
+  }  
+    
+  .input-group input {  
+    width: 80%;  
+    padding: 10px;
+    padding-left: 40px;  
+    border: 1px solid transparent;  
+    border-radius: 10px;  
+    font-size: 16px;  
+    background-color: #F0E4F2;
+    /* margin-bottom: 15px; */
+
+  }  
+  #usertext{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    color: red;
+
+  }
+    #emailtext{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    color: red;
+    }
+    #passtext{
+        font-size: 14px;
+    margin: 0;
+    /* margin-top: -16px; */
+    margin-left: -100px;
+    /* margin-bottom: 10px; */
+    color: red;
+    }
+  .input-group i {  
+    position: absolute;  
+    top: 10px;  
+    left: 15px;  
+    font-size: 16px;  
+    color: #666;  
+  }  
+    
+  .sign-up-btn {  
+    background-color: #9C28B1;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    width: 292px;
+  }  
+      
+    
+  .login-link {  
+    color: #6c5ce7;  
+    text-decoration: none;  
+  }  
+    
+  .login-link:hover {  
+    text-decoration: underline;  
+  }
+  
+
+  /* lOGIN CSS */  
+
+  #loginMain {  
+    display: none;
+    width: 400px;  
+    margin: 200px;  
+    padding: 20px;  
+    background-color: #fff;  
+    /* border: 1px solid #ddd;   */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+
+  }  
+    
+  h1 {  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+  }  
+    
+  p {  
+    font-size: 16px;  
+    margin-bottom: 20px;  
+  }  
+    
+  /* .input-group {  
+    margin-bottom: 20px;  
+  }   */
+    
+  /* .input-group input {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    font-size: 16px;  
+    background-color: #f8e0ff;  
+  }   */
+    
+  .login-btn {  
+    background-color: #800080;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    width: 292px;
+
+  }  
+
+  #emailtextlogin{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    color: red;
+  }
+  #passtextlogin{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -100px;
+    margin-bottom: 10px;
+    color: red;
+  }

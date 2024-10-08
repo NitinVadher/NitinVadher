@@ -1,0 +1,101 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240203/OJSu/65be028e16fd2c6e6ad72879/-473Wx593H-467010736-grey-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        
+        {
+            "id": 2,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240627/WF8e/667cfa466f60443f31c118bc/-473Wx593H-700132335-navy-MODEL.jpg",
+            "price": "1000",
+            "tital": "JOMPERS",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 3,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240110/3ZQo/659da10754c30e6276a0d14c/-473Wx593H-466967765-white-MODEL.jpg",
+            "price": "999",
+            "tital": "MONTE CARLO",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 4,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240208/RV9O/65c42c178cdf1e0df5f56cfb/-473Wx593H-467047174-aqua-MODEL.jpg",
+            "price": "800",
+            "tital": "JOMPERS",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 5,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20230808/9x9d/64d2474aeebac147fcb45b0a/-473Wx593H-466434087-white-MODEL.jpg",
+            "price": "700",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 6,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240623/QY3B/66784e2c1d763220faffa6da/-473Wx593H-700121218-khaki-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 7,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240623/QY3B/66784e2c1d763220faffa6da/-473Wx593H-700121218-khaki-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 8,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20231206/OGF8/656f7eadddf7791519b3877c/-473Wx593H-466848530-charcoal-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 9,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240816/YhjF/66bed4216f60443f310cab11/-473Wx593H-466848530-navy-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 10,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240724/a4HI/66a005de6f60443f319ce83b/-473Wx593H-700223877-grey-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 11,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240612/Acp2/666a34c005ac7d77bb1a6957/-473Wx593H-465903428-grey-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        },
+        {
+            "id": 12,
+            "img": "https://assets.ajio.com/medias/sys_master/root/20240724/0X0W/66a009aa1d763220fa126709/-473Wx593H-700223877-green-MODEL.jpg",
+            "price": "2000",
+            "tital": "EYEBOGLER",
+            "productName": "Men Ribbed Regular Fit Shirt with Patch Pocket",
+            "addtocard":"Sale Price  $2500"
+        }
+    ]
+}

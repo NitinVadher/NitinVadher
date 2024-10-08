@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#a1{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 600px;
+    margin-top: 150px;    
+border-radius: 10px;
+}
+
+#img{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+
+#a3{
+    border: 2px solid red;
+    width: 400px;
+    height: 100px;
+}
+
+#a3 p{
+    display: flex;
+    flex-wrap: wrap;
+}

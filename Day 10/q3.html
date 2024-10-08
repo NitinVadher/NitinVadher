@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="num">
+    <button onclick="st()">click</button>
+    <h1 id="ans"></h1>
+
+    <script>
+        function st() {
+            a = document.getElementById("num").value;
+            let new1="";
+
+
+            for (let x = 1; x <= a; x++) {
+                if (x % 3 == 0 && x % 5 == 0) {
+                    new1 += x+ "fizzbuzz<br>";
+                    document.getElementById("ans").innerHTML = `${new1}`;
+             
+                }
+                else if (x % 3 == 0) {
+                    new1 += x+ "fizz<br>";
+                    document.getElementById("ans").innerHTML = `${new1}`;
+             
+                  
+                }
+                else if (x % 5 == 0) {
+                    new1 += x+ "buzz<br>";
+                    document.getElementById("ans").innerHTML = `${new1}`;
+             
+                
+                }
+                
+            }
+        }
+    </script>
+</body>
+
+</html>

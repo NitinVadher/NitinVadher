@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #modal{
+            width: 440px;
+            height: 445px;
+            /* border: 1px solid black; */
+            position: fixed;
+            /* opacity: 0%; */
+            left: 40%;
+            top: 30%;
+            display: none;
+            position: relative;
+            position: absolute;
+            /* padding: 20px; */
+        }
+        #icon{
+            font-size: 30px;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+        
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(255,240,179,1) 7%, rgba(255,206,212,1) 66%, rgba(255,173,244,1) 92%)
+}
+
+  #signupForm{
+    padding: 0;
+    margin: 0;
+  }
+    
+  #singupMain {  
+    width: 400px;  
+    padding: 20px;  
+    background-color: #fff;  
+    /* border: 1px solid #ddd;   */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    /* border: 1px solid black; */
+    /* margin: 200px;   */
+
+  }  
+    
+  #singupMain h1 {  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+  }  
+    
+  p {  
+    font-size: 16px;  
+    margin-bottom: 20px;  
+  }  
+    
+  .input-group {  
+    position: relative;  
+    margin-bottom: 20px;  
+    width: 300px;
+  }  
+    
+  .input-group input {  
+    width: 80%;  
+    padding: 10px;
+    padding-left: 40px;  
+    border: 1px solid transparent;  
+    border-radius: 10px;  
+    font-size: 16px;  
+    background-color: #F0E4F2;
+    /* margin-bottom: 15px; */
+
+  }  
+  #usertext{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    color: red;
+
+  }
+    #emailtext{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    color: red;
+    }
+    #passtext{
+        font-size: 14px;
+    margin: 0;
+    /* margin-top: -16px; */
+    margin-left: -100px;
+    /* margin-bottom: 10px; */
+    color: red;
+    }
+  .input-group i {  
+    position: absolute;  
+    top: 10px;  
+    left: 15px;  
+    font-size: 16px;  
+    color: #666;  
+  }  
+    
+  .sign-up-btn {  
+    background-color: #9C28B1;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    width: 292px;
+  }  
+      
+    
+  .login-link {  
+    color: #6c5ce7;  
+    text-decoration: none;  
+  }  
+    
+  .login-link:hover {  
+    text-decoration: underline;  
+  }
+  
+
+  /* lOGIN CSS */  
+
+  #loginMain {  
+    display: none;
+    width: 400px;  
+    /* margin: 200px;   */
+    padding: 20px;  
+    background-color: #fff;  
+    /* border: 1px solid #ddd;   */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+
+  }  
+    
+  h1 {  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+  }  
+    
+  p {  
+    font-size: 16px;  
+    margin-bottom: 20px;  
+  }  
+    
+  /* .input-group {  
+    margin-bottom: 20px;  
+  }   */
+    
+  /* .input-group input {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    font-size: 16px;  
+    background-color: #f8e0ff;  
+  }   */
+    
+  .login-btn {  
+    background-color: #800080;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    width: 292px;
+
+  }  
+
+  #emailtextlogin{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    color: red;
+  }
+  #passtextlogin{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -16px;
+    margin-left: -100px;
+    margin-bottom: 10px;
+    color: red;
+  }
+    </style>
+</head>
+<body>
+
+    <div id="modal">
+        <i class="fa-solid fa-xmark" id="icon"></i>
+        <center>
+<div id="singupMain">  
+    <h1>Sign up</h1>  
+    <p>Create your account</p>  
+    <form id="signupForm">  
+     <div class="input-group">  
+       <input type="text" id="user" placeholder="Username">  
+       <i class="fas fa-user"></i>  
+     </div>  
+     <p id="usertext">&nbsp;</p>
+     <div class="input-group">  
+       <input type="text" id="email" placeholder="Email">  
+       <i class="fas fa-envelope"></i>  
+     </div>  
+     <p id="emailtext">&nbsp;</p>
+     <div class="input-group">  
+       <input type="password" id="password" placeholder="Password">  
+       <i class="fas fa-lock"></i>  
+       <p id="passtext">&nbsp;</p>
+     </div>  
+     <input type="submit" class="sign-up-btn" value="Sign up">
+     <p>Already have an account? <a href="#" class="login-link" id="swap1">Login</a></p> 
+    </form>  
+   </div>  
+</center>
+<center>
+<div id="loginMain">  
+    <h1>Welcome Back</h1>  
+    <p>Enter your credential to login</p>  
+    <form id="loginForm">  
+     <div class="input-group">  
+       <input type="text" id="emaillogin" placeholder="Username">  
+       <i class="fas fa-user"></i>  
+     </div>  
+     <p id="emailtextlogin">&nbsp;</p>
+     <div class="input-group">  
+       <input type="password" id="passwordlogin" placeholder="Password">  
+       <i class="fas fa-lock"></i>  
+     </div>
+     <p id="passtextlogin">&nbsp;</p>
+     <input type="submit" value="Login" class="login-btn" >   
+    </form>  
+    <p>Don't have an account? <a href="#" class="sign-up-link" id="swap2">Sign Up</a></p>  
+</div>  
+</center>    
+    </div>
+    <script src="modal.js"></script>
+</body>
+</html>
