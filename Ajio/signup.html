@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <center>
+        <div id="singupMain"><br><br><br><br><br><br><br><br><br>
+            <form id="signupForm">
+                <h1 class="h11">Sign up</h1><br><br>
+                <input type="text" class="user" id="user" placeholder="Username"><br> <i id="usericone" class="fa-solid fa-user"></i>
+                <span class="error" id="usertext"></span><br><br>
+                <input type="text" id="email" class="user" placeholder="Email"><br><i id="emailicone" class="fa-solid fa-envelope"></i>
+                <span class="error" id="emailtext"></span><br><br>
+                <input type="password" class="user" id="password" placeholder="Password"><br><br><i id="passicone" class="fa-solid fa-lock"></i>
+                <span class="error" id="passtext"></span><br><br>
+                <input class="but" type="submit"><br><br><br>
+                <p class="swap" id="swap1">Already have an account</p>
+            </form>
+
+        </div>
+    </center>
+
+    <center>
+
+        <div id="loginMain"><br><br><br><br><br><br><br><br><br>
+            <form id="loginForm">
+                <h1 class="h11">Log in</h1><br><br>
+                <input type="text" class="user" id="emaillogin" placeholder="Email"><br><i id="emailicone1" class="fa-solid fa-envelope"></i>
+                <span class="error" id="emailtextlogin"></span><br><br>
+                <input type="password" class="user" id="passwordlogin" placeholder="Password"><br><br><i id="passicone1" class="fa-solid fa-lock"></i>
+                <span class="error" id="passtextlogin"></span><br><br>
+                <input class="but" type="submit"><br><br><br>
+                <p class="swap" id="swap2">Creat a New Account</p>
+            </form>
+        </div>
+
+    </center>
+
+    <script src="signup.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

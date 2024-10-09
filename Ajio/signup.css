@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#loginMain{
+    display: none;
+}
+
+#singupMain{
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#loginMain{
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#signupForm{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #2b4052;
+    padding-top: 40px;
+}
+#loginForm{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #2b4052;
+    padding-top: 40px;
+}
+.h11{
+    color: aliceblue;
+}
+.user{ 
+    padding: 13px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: aliceblue;
+    padding-left: 50px;
+    position: relative;
+}
+::placeholder{
+    color: aliceblue; 
+}
+.error{
+    color: aliceblue;
+}
+.but{
+    height: 45px;
+    width: 35%;
+    background: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.but:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: 18px;    
+}
+.swap{
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.swap:hover{
+    font-size: 20px;
+}
+#usericone{
+    position: absolute;
+    color: aliceblue;
+    top: 287px;
+    left: 820px;
+}
+#emailicone{
+    position: absolute;
+    color: aliceblue;
+    top: 364px;
+    left: 820px;
+}
+#passicone{
+    position: absolute;
+    color: aliceblue;
+    top: 440px;
+    left: 820px;
+}
+#emailicone1{
+    position: absolute;
+    color: aliceblue;
+    top: 287px;
+    left: 820px;
+}
+#passicone1{
+    position: absolute;
+    color: aliceblue;
+    top: 364px;
+    left: 820px;
+}

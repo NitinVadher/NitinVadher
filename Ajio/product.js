@@ -4,7 +4,7 @@ fetch(`http://localhost:3000/product`)
         return r.json()
     })
     .then((res) => {
-        document.getElementById("box").innerHTML = productData(res)
+        document.getElementById("box1").innerHTML = productData(res)
     })
 
     .catch((err) => {
@@ -15,7 +15,9 @@ fetch(`http://localhost:3000/product`)
 function productData(s) {
     return s.map((n) => {
         return `<div id="card">
-        <div id="images"> <img  src="${n.img}"/>
+        <div id="images">
+         <a href="single_page.html?id=${n.id}">
+        <img  src="${n.img}"/></a>
          </div>
          
         <div id="texbox">
